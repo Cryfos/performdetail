@@ -5,15 +5,15 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="dist/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
    <link rel="stylesheet" href="dist/css/normalize.css">
    <link rel="stylesheet" href="dist/css/style.css">
    <title>Perform detail</title>
 </head>
 
 <body>
-
-   <div class="header">
-      <div class="container">
+   <header>
+      <div class="wrapper">
 
          <div class="header__logo">
             <h1>perform<span>detail</span>
@@ -21,33 +21,31 @@
          </div>
 
          <ul class="header__menu">
-            <li>Главная</li>
-            <li>О Нас</li>
-            <li>Услуги</li>
-            <li>Контакты</li>
+            <li class="link">Звоните для записи по телефону: <a href="tel:89250310504">8(925)031-05-04</a></li>
          </ul>
 
       </div>
-   </div>
+   </header>
+
 
    <section class="highlight">
+      <div class="wrapper">
 
-      <div class="highlight__about">
-         <p>Привет!</p>
-      </div>
-      <div class="highlight__text">
-         <p> Если ты здесь, то, наверняка, ты хочешь привести свой автомобиль в порядок. Отполировать кузов, или
-            защитить
-            его от последствий повседневной эксплуатации, таких как сколы, царапины, потускнение цвета и многого
-            другого. Обклеив защитной антигравийной плёнкой, нанести керамику. Или сделать химчистку автомобиля.</p>
-      </div>
-      <div class="highlight__image">3</div>
+         <div class="highlight__about"></div>
 
+         <div class="highlight__text">
+            <p> Если ты здесь, то, наверняка, ты хочешь привести свой автомобиль в порядок. Отполировать кузов, или
+               защитить
+               его от последствий повседневной эксплуатации, таких как сколы, царапины, потускнение цвета и многого
+               другого. Обклеив защитной антигравийной плёнкой, нанести керамику. Или сделать химчистку автомобиля.</p>
+         </div>
+         <div class="highlight__image"></div>
+      </div>
    </section>
 
    <section class="service">
-      <h2>Наши услуги:</h2>
-      <div class="container">
+      <div class="wrapper">
+         <h2 class="heading">Наши услуги:</h2>
          <div class="servicelist">
             <div class="servicelist__item deteiling">
                <div class="servicelist__item__descr">
@@ -57,12 +55,11 @@
                      существующий финансовых и административных условий. Для современного мира понимание сущности
                      ресурсосберегающих технологий играет важную роль в формировании поэтапного и последовательного
                      развития общества.</p>
-                  <a href="#">Записаться</a>
+                  <div class="button buttonReverse"><a href="#">Записаться</a></div>
                </div>
             </div>
 
             <div class="servicelist__item polirovka">
-
                <div class="servicelist__item__descr">
                   <h2>Полировка авто</h2>
                   <div class="line"></div>
@@ -70,7 +67,7 @@
                      существующий финансовых и административных условий. Для современного мира понимание сущности
                      ресурсосберегающих технологий играет важную роль в формировании поэтапного и последовательного
                      развития общества.</p>
-                  <a href="#">Записаться</a>
+                  <div class="button buttonReverse"><a href="#">Записаться</a></div>
                </div>
             </div>
 
@@ -82,12 +79,11 @@
                      существующий финансовых и административных условий. Для современного мира понимание сущности
                      ресурсосберегающих технологий играет важную роль в формировании поэтапного и последовательного
                      развития общества.</p>
-                  <a href="#">Записаться</a>
+                  <div class="button buttonReverse"><a href="#">Записаться</a></div>
                </div>
             </div>
 
             <div class="servicelist__item broneplenka">
-
                <div class="servicelist__item__descr">
                   <h2>Обклейка плёнкой</h2>
                   <div class="line"></div>
@@ -95,12 +91,11 @@
                      существующий финансовых и административных условий. Для современного мира понимание сущности
                      ресурсосберегающих технологий играет важную роль в формировании поэтапного и последовательного
                      развития общества.</p>
-                  <a href="#">Записаться</a>
+                  <div class="button buttonReverse"><a href="#">Записаться</a></div>
                </div>
             </div>
 
             <div class="servicelist__item keramika">
-
                <div class="servicelist__item__descr">
                   <h2>Защита кузова керамикой</h2>
                   <div class="line"></div>
@@ -108,15 +103,73 @@
                      существующий финансовых и административных условий. Для современного мира понимание сущности
                      ресурсосберегающих технологий играет важную роль в формировании поэтапного и последовательного
                      развития общества.</p>
-                  <a href="#">Записаться</a>
+                  <div class="button buttonReverse"><a href="#">Записаться</a></div>
+               </div>
+            </div>
+
+            <div class="servicelist__item keramika">
+               <div class="servicelist__item__descr">
+                  <h2>Тонировка</h2>
+                  <div class="line"></div>
+                  <p>Разнообразный и богатый опыт сложившаяся структура организации способствует повышению качества
+                     существующий финансовых и административных условий. Для современного мира понимание сущности
+                     ресурсосберегающих технологий играет важную роль в формировании поэтапного и последовательного
+                     развития общества.</p>
+                  <div class="button buttonReverse"><a href="#">Записаться</a></div>
                </div>
             </div>
 
 
          </div>
-
       </div>
    </section>
+
+   <section class="portfolio">
+      <div class="wrapper">
+         <h2 class="heading">Наши работы вы всегда можете посмотреть в наших соцсетях:</h2>
+         <ul>
+            <li class="insta"><a href="https://www.instagram.com/perform_detail/" target="_blank"><i
+                     class="fa-brands fa-instagram"></i>Instagram</a>
+            </li>
+            <li class="youtube"><a href="https://www.youtube.com/channel/UCFQCvhhF6hFgHlBFu5BRxlw" target="_blank"><i
+                     class="fa-brands fa-youtube"></i>YouTube</a></li>
+            <li class="vk"><a href="https://vk.com/performdetail" target="_blank"><i class="fa-brands fa-vk"></i>VK</a>
+            </li>
+         </ul>
+   </section>
+
+
+   <section class="contacts">
+      <div class="wrapper">
+         <div class="leftCol">
+            <ul>
+               <li>г.Сергиев Посад
+                  ул.Октябрьская 3</li>
+               <li>8(925)031-05-04</li>
+               <li class="button"><a href="#">Записаться</a></li>
+            </ul>
+         </div>
+         <div class="rightCol"><a href="https://yandex.ru/maps/10752/sergiev-posad/?utm_medium=mapframe&utm_source=maps"
+               style="color:#eee;font-size:12px;position:absolute;top:0px;">Сергиев Посад</a><a
+               href="https://yandex.ru/maps/10752/sergiev-posad/house/oktyabrskaya_ulitsa_3/Z0EYdwNiQUAEQFtsfX54eHllYg==/?ll=38.143008%2C56.299455&utm_medium=mapframe&utm_source=maps&z=17.48"
+               style="color:#eee;font-size:12px;position:absolute;top:14px;">Октябрьская улица, 3 —
+               Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUVEJs5hD" width="560" height="400"
+               frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+      </div>
+
+   </section>
+
+   <footer>
+      <div class="wrapper">
+         <div class="copy">
+            <p></p>
+            <p>&copy;2022 Perform detail. All rights reserved</p>
+         </div>
+         <div class="link">
+            <p>Дизайн и разработка <a href="https://vk.com/stanislav.chachin" target="_blank">Stanislav Chachin</a></p>
+         </div>
+      </div>
+   </footer>
 
 </body>
 
